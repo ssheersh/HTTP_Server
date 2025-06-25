@@ -20,12 +20,3 @@ This is a simple socket server framework in C++ that supports both **IPv4** and 
 - C++17-compatible compiler (e.g., g++, clang++)
 - CMake 3.10+
 
-### Building
-
-```bash
-mkdir build
-cd build
-cmake ..
-make
-./server
-
