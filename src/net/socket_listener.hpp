@@ -1,8 +1,13 @@
+
 #pragma once
-#include "socket.hpp"
+
+#include "net/socket.hpp"
 
 class SocketListener : public Socket {
 public:
-  void listen_for_connections(int backlog = 10);
+  SocketListener(int port);
+
+  void bind_to_port(int port);
+  void listen_on_port(int backlog = 10);
   int accept_connection();
 };

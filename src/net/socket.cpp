@@ -18,3 +18,11 @@ void Socket::close_fd() {
     close(fd);
   fd = -1;
 }
+
+void Socket::create(int domain, int type, int protocol) {
+  int new_fd = socket(domain, type, protocol);
+  if (new_fd < 0) {
+    throw std::runtime_error("socket creation failed");
+  }
+  set_fd(new_fd);
+}

@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 HttpServer::HttpServer(int port, const std::string &root)
-    : port(port), root_dir(root) {}
+    : port(port), root_dir(root), listener(port) {}
 
 void HttpServer::run() {
   listener.bind_to_port(port);

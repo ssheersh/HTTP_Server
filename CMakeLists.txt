@@ -1,42 +1,47 @@
+cmake_minimum_required(VERSION 3.16)
+project(HttpServer LANGUAGES CXX)
 
-cmake_minimum_required(VERSION 3.14)
-project(http_server)
-
+# Use C++17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Source directories
+# Output compile_commands.json for LSP support
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+# Directories
 set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 set(NET_DIR ${SRC_DIR}/net)
 set(HTTP_DIR ${SRC_DIR}/http)
 set(SERVER_DIR ${SRC_DIR}/server)
-set(UTILS_DIR ${SRC_DIR}/utils)
+set(UTIL_DIR ${SRC_DIR}/util)
+set(TEST_DIR ${CMAKE_CURRENT_SOURCE_DIR}/test)
 
-# Collect all source files
-file(GLOB_RECURSE SRC_FILES
-    ${SRC_DIR}/main.cpp
-    ${NET_DIR}/*.cpp
-    ${HTTP_DIR}/*.cpp
-    ${SERVER_DIR}/*.cpp
-)
-
-# Include paths
+# Include directories for headers
 include_directories(
     ${SRC_DIR}
     ${NET_DIR}
     ${HTTP_DIR}
     ${SERVER_DIR}
-    ${UTILS_DIR}
+    ${UTIL_DIR}
 )
 
-# Create the executable
+# Source files (explicit to avoid globbing build/)
+set(SRC_FILES
+    ${SRC_DIR}/main.cpp
+    ${SERVER_DIR}/http_server.cpp
+    ${NET_DIR}/socket.cpp
+		${NET_DIR}/socket_binder.cpp
+		${NET_DIR}/socket_connector.cpp
+		${NET_DIR}/socket_listener.cpp
+    ${HTTP_DIR}/http_response.cpp
+		${HTTP_DIR}/http_request.cpp
+    ${HTTP_DIR}/mime_types.cpp
+    ${UTIL_DIR}/logger.cpp
+)
+
+# Build the main HTTP server executable
 add_executable(http_server ${SRC_FILES})
 
-# Optional: link pthread if using multithreading later
-# target_link_libraries(http_server pthread)
+# Optional test executable using raw sockets
+add_executable(test_requests ${TEST_DIR}/test_request.cpp)
 
-# Optional: Test support
-enable_testing()
-add_executable(test_requests tests/test_requests.cpp)
-add_test(NAME BasicTest COMMAND test_requests)

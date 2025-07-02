@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/main.cpp.o -c /home/ssheersh/dev/server/src/main.cpp",
+  "file": "/home/ssheersh/dev/server/src/main.cpp",
+  "output": "CMakeFiles/http_server.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/server/http_server.cpp.o -c /home/ssheersh/dev/server/src/server/http_server.cpp",
+  "file": "/home/ssheersh/dev/server/src/server/http_server.cpp",
+  "output": "CMakeFiles/http_server.dir/src/server/http_server.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/net/socket.cpp.o -c /home/ssheersh/dev/server/src/net/socket.cpp",
+  "file": "/home/ssheersh/dev/server/src/net/socket.cpp",
+  "output": "CMakeFiles/http_server.dir/src/net/socket.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/net/socket_binder.cpp.o -c /home/ssheersh/dev/server/src/net/socket_binder.cpp",
+  "file": "/home/ssheersh/dev/server/src/net/socket_binder.cpp",
+  "output": "CMakeFiles/http_server.dir/src/net/socket_binder.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/net/socket_connector.cpp.o -c /home/ssheersh/dev/server/src/net/socket_connector.cpp",
+  "file": "/home/ssheersh/dev/server/src/net/socket_connector.cpp",
+  "output": "CMakeFiles/http_server.dir/src/net/socket_connector.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/net/socket_listener.cpp.o -c /home/ssheersh/dev/server/src/net/socket_listener.cpp",
+  "file": "/home/ssheersh/dev/server/src/net/socket_listener.cpp",
+  "output": "CMakeFiles/http_server.dir/src/net/socket_listener.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/http/http_response.cpp.o -c /home/ssheersh/dev/server/src/http/http_response.cpp",
+  "file": "/home/ssheersh/dev/server/src/http/http_response.cpp",
+  "output": "CMakeFiles/http_server.dir/src/http/http_response.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/http/http_request.cpp.o -c /home/ssheersh/dev/server/src/http/http_request.cpp",
+  "file": "/home/ssheersh/dev/server/src/http/http_request.cpp",
+  "output": "CMakeFiles/http_server.dir/src/http/http_request.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/http/mime_types.cpp.o -c /home/ssheersh/dev/server/src/http/mime_types.cpp",
+  "file": "/home/ssheersh/dev/server/src/http/mime_types.cpp",
+  "output": "CMakeFiles/http_server.dir/src/http/mime_types.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/http_server.dir/src/util/logger.cpp.o -c /home/ssheersh/dev/server/src/util/logger.cpp",
+  "file": "/home/ssheersh/dev/server/src/util/logger.cpp",
+  "output": "CMakeFiles/http_server.dir/src/util/logger.cpp.o"
+},
+{
+  "directory": "/home/ssheersh/dev/server/build",
+  "command": "/usr/bin/c++  -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util -std=gnu++17 -o CMakeFiles/test_requests.dir/test/test_request.cpp.o -c /home/ssheersh/dev/server/test/test_request.cpp",
+  "file": "/home/ssheersh/dev/server/test/test_request.cpp",
+  "output": "CMakeFiles/test_requests.dir/test/test_request.cpp.o"
+}
+]

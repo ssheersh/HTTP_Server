@@ -12,6 +12,9 @@ void SocketBinder::bind_to_port(uint16_t port, bool use_ipv6) {
     throw std::runtime_error("Failed to create socket");
 
   int opt = 1;
+  if (setsockopt(get_fd(), SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt)) < 0) {
+    throw std::runtime_error("setsockopt(SO_REUSEADDR) failed");
+  }
   setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
 
   if (use_ipv6) {
