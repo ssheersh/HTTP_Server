@@ -8,7 +8,6 @@ HttpServer::HttpServer(int port, const std::string &root)
     : port(port), root_dir(root), listener(port) {}
 
 void HttpServer::run() {
-  listener.bind_to_port(port);
   listener.listen_on_port();
 
   std::cout << "Server listening on http://localhost:" << port << std::endl;
