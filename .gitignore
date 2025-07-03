@@ -1,0 +1,43 @@
+# Build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/cm_install.cmake
+/install_manifest.txt
+
+# Compiled binaries
+*.out
+*.o
+*.obj
+*.so
+*.a
+*.exe
+
+# Executables
+http-server
+server
+
+# CMake generated config
+*.cmake
+!CMakeLists.txt
+
+# Logs
+*.log
+
+# OS & Editor noise
+.DS_Store
+Thumbs.db
+
+# Vim / Emacs / VSCode
+*.swp
+*~
+.vscode/
+.idea/
+*.user
+*.code-workspace
+
+# Test output
+/tests/test_output.txt
+/tests/*.tmp
+
