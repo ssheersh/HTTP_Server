@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/ssheersh/dev/server/build/cmake_install.cmake"
+		"/home/ssheersh/dev/HTTP_Server/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

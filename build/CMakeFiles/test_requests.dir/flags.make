@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ssheersh/dev/server/src -I/home/ssheersh/dev/server/src/net -I/home/ssheersh/dev/server/src/http -I/home/ssheersh/dev/server/src/server -I/home/ssheersh/dev/server/src/util
+CXX_INCLUDES = -I/home/ssheersh/dev/HTTP_Server/src -I/home/ssheersh/dev/HTTP_Server/src/net -I/home/ssheersh/dev/HTTP_Server/src/http -I/home/ssheersh/dev/HTTP_Server/src/server -I/home/ssheersh/dev/HTTP_Server/src/util
 
 CXX_FLAGS = -std=gnu++17
 

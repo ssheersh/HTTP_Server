@@ -1,6 +1,7 @@
 CMakeFiles/http_server.dir/src/util/logger.cpp.o: \
- /home/ssheersh/dev/server/src/util/logger.cpp /usr/include/stdc-predef.h \
- /home/ssheersh/dev/server/src/util/logger.hpp \
+ /home/ssheersh/dev/HTTP_Server/src/util/logger.cpp \
+ /usr/include/stdc-predef.h \
+ /home/ssheersh/dev/HTTP_Server/src/util/logger.hpp \
  /usr/include/c++/15.1.1/fstream \
  /usr/include/c++/15.1.1/bits/requires_hosted.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -159,6 +160,7 @@ CMakeFiles/http_server.dir/src/util/logger.cpp.o: \
  /usr/include/c++/15.1.1/bits/parse_numbers.h \
  /usr/include/c++/15.1.1/bits/std_mutex.h \
  /usr/include/c++/15.1.1/bits/unique_lock.h \
+ /usr/include/c++/15.1.1/sstream /usr/include/c++/15.1.1/bits/sstream.tcc \
  /usr/include/c++/15.1.1/chrono /usr/include/c++/15.1.1/iomanip \
  /usr/include/c++/15.1.1/locale \
  /usr/include/c++/15.1.1/bits/locale_facets_nonio.h \
@@ -168,5 +170,4 @@ CMakeFiles/http_server.dir/src/util/logger.cpp.o: \
  /usr/include/c++/15.1.1/bits/locale_facets_nonio.tcc \
  /usr/include/c++/15.1.1/bits/locale_conv.h \
  /usr/include/c++/15.1.1/bits/quoted_string.h \
- /usr/include/c++/15.1.1/sstream /usr/include/c++/15.1.1/bits/sstream.tcc \
  /usr/include/c++/15.1.1/iostream

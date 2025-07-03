@@ -1,7 +1,7 @@
 CMakeFiles/http_server.dir/src/http/http_request.cpp.o: \
- /home/ssheersh/dev/server/src/http/http_request.cpp \
+ /home/ssheersh/dev/HTTP_Server/src/http/http_request.cpp \
  /usr/include/stdc-predef.h \
- /home/ssheersh/dev/server/src/http/http_request.hpp \
+ /home/ssheersh/dev/HTTP_Server/src/http/http_request.hpp \
  /usr/include/c++/15.1.1/string \
  /usr/include/c++/15.1.1/bits/requires_hosted.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \

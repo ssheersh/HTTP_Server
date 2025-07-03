@@ -1,4 +1,5 @@
 #include "socket.hpp"
+#include "util/logger.hpp"
 #include <iostream>
 #include <stdexcept>
 #include <unistd.h>

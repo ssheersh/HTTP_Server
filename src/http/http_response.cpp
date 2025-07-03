@@ -2,6 +2,7 @@
 #include "mime_types.hpp"
 #include <filesystem>
 #include <fstream>
+#include <iostream>
 #include <sstream>
 
 std::string HttpResponse::build(const std::string &root,
@@ -12,6 +13,7 @@ std::string HttpResponse::build(const std::string &root,
   std::string path = req.path == "/" ? "/index.html" : req.path;
   std::string full_path = root + path;
 
+  std::cerr << "[DEBUG] Full path: " << full_path << std::endl;
   if (!std::filesystem::exists(full_path) ||
       std::filesystem::is_directory(full_path))
     return "HTTP/1.1 404 Not Found\r\n\r\nFile Not Found";
